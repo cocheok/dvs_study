@@ -1,0 +1,6 @@
+site_name: code
+pages:
+- Inicio: index.md
+- Proyectos: projects.md
+- ROS: ros.md
+theme: readthedocs
