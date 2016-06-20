@@ -1,7 +1,9 @@
 site_name: DVS Study
 pages:
 - Inicio: index.md
-- Proyecto: project.md
-- Referencias: projects.md
-- ROS: ros.md
+- Proyecto:
+    - Estructura: project/structure.md
+    - Software Base: project/base.md
+    - Como contribuir: project/contribute.md 
+- Referencias: references.md
 theme: readthedocs
