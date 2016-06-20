@@ -1,6 +1,7 @@
 site_name: DVS Study
 pages:
 - Inicio: index.md
-- Proyectos: projects.md
+- Proyecto: project.md
+- Referencias: projects.md
 - ROS: ros.md
 theme: readthedocs
