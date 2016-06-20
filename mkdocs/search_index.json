@@ -2,13 +2,23 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Aplicacion de DVS a la robotica\n\n\nReferencias\n\n\nOpen source robotics fundation\n\n\nImagenes de docker\n: \nDockerhub osrf", 
+            "text": "Objetivo\n\n\nEl presente proyecto tiene como objetivo la investigaci\u00f3n de algoritmos para explotar la informaci\u00f3n provista por c\u00e1maras retinianas\n\n\nAlcance\n\n\nDise\u00f1ar y desarrollar el software base del sistema experimental: Este punto se enfoca en dise\u00f1ar la arquitectura correspondiente en cuanto a t\u00e9cnicas y tecnolog\u00edas utilizadas para la realizaci\u00f3n del software base sobre el cual se probar\u00e1n los algoritmos que explotan la informaci\u00f3n provista por dichas camaras.\n\n\nDesarrollar de la estructura de proyecto libre: Este punto se enfoca en decidir e implementar las herramientas y tecnolog\u00edas para que sea un proyecto de desarrollo libre y contributivo.\n\n\nDesarrollar la estructura de simulaci\u00f3n: Dado que en futuras investigaciones habr\u00e1 que decidir que hardware utilizar y por el propio proceso de desarrollo, se realizar\u00e1n los test de esta tecnolog\u00eda en una plataforma simulada ( realizada con Gazebo o similar ). Esto agrega un nivel de abstracci\u00f3n al desarrollo, y dar\u00e1 independencia con respecto del hardware utilizado.\n\n\nForma de trabajo\n\n\nOpen source robotics fundation\n\n\nImagenes de docker\n: \nDockerhub osrf", 
             "title": "Inicio"
         }, 
         {
-            "location": "/#referencias", 
+            "location": "/#objetivo", 
+            "text": "El presente proyecto tiene como objetivo la investigaci\u00f3n de algoritmos para explotar la informaci\u00f3n provista por c\u00e1maras retinianas", 
+            "title": "Objetivo"
+        }, 
+        {
+            "location": "/#alcance", 
+            "text": "Dise\u00f1ar y desarrollar el software base del sistema experimental: Este punto se enfoca en dise\u00f1ar la arquitectura correspondiente en cuanto a t\u00e9cnicas y tecnolog\u00edas utilizadas para la realizaci\u00f3n del software base sobre el cual se probar\u00e1n los algoritmos que explotan la informaci\u00f3n provista por dichas camaras.  Desarrollar de la estructura de proyecto libre: Este punto se enfoca en decidir e implementar las herramientas y tecnolog\u00edas para que sea un proyecto de desarrollo libre y contributivo.  Desarrollar la estructura de simulaci\u00f3n: Dado que en futuras investigaciones habr\u00e1 que decidir que hardware utilizar y por el propio proceso de desarrollo, se realizar\u00e1n los test de esta tecnolog\u00eda en una plataforma simulada ( realizada con Gazebo o similar ). Esto agrega un nivel de abstracci\u00f3n al desarrollo, y dar\u00e1 independencia con respecto del hardware utilizado.", 
+            "title": "Alcance"
+        }, 
+        {
+            "location": "/#forma-de-trabajo", 
             "text": "", 
-            "title": "Referencias"
+            "title": "Forma de trabajo"
         }, 
         {
             "location": "/#open-source-robotics-fundation", 
@@ -16,74 +26,94 @@
             "title": "Open source robotics fundation"
         }, 
         {
-            "location": "/projects/", 
-            "text": "Low-latency event-based visual odometry\n\n\nWeb del proyecto\n\n\nPaper\n\n\nLow-latency localization by Active LED Markers tracking using a Dynamic Vision Sensor\n\n\nPresentaci\u00f3n\n\n\nC\u00f3digo\n\n\nPoker-DVS and MNIST-DVS\n\n\nWeb del proyecto\n\n\nProfesionales referentes\n\n\nTobi Delbr\u00fcck\n\n\nP\u00e1gina personal\n\n\nBernab\u00e9 Linares-Barranco\n\n\nP\u00e1gina personal\n\n\nAndrea Censi\n\n\nP\u00e1gina personal\n\n\nInvestigaciones\n\n\nP\u00e1gina principal\n\n\ndvs\n\n\nSoftware\n\n\nLibrerias\n\n\nDatasets\n\n\nOtros\n\n\nOpen source robot\n\n\nGet start DVS\n\n\nScripts DVS\n\n\nHardware DVS", 
-            "title": "Proyectos"
+            "location": "/project/structure/", 
+            "text": "Introducci\u00f3n\n\n\nLa estructura del proyecto consiste en la utilizaci\u00f3n de Docker como mecanismo de deployment, ROS como Sistema operativo y Gazebo como estructura de simulaci\u00f3n.\n\n\nDocker", 
+            "title": "Estructura"
         }, 
         {
-            "location": "/projects/#low-latency-event-based-visual-odometry", 
+            "location": "/project/structure/#introduccion", 
+            "text": "La estructura del proyecto consiste en la utilizaci\u00f3n de Docker como mecanismo de deployment, ROS como Sistema operativo y Gazebo como estructura de simulaci\u00f3n.", 
+            "title": "Introducci\u00f3n"
+        }, 
+        {
+            "location": "/project/structure/#docker", 
+            "text": "", 
+            "title": "Docker"
+        }, 
+        {
+            "location": "/project/base/", 
+            "text": "Introducci\u00f3n\n\n\nEl software base consiste en el reconocimiento de un tablero de ajedrez y su reproducci\u00f3n 3D", 
+            "title": "Software Base"
+        }, 
+        {
+            "location": "/project/base/#introduccion", 
+            "text": "El software base consiste en el reconocimiento de un tablero de ajedrez y su reproducci\u00f3n 3D", 
+            "title": "Introducci\u00f3n"
+        }, 
+        {
+            "location": "/project/contribute/", 
+            "text": "Como contribuir\n\n\nPara contribuir con mas software de testeo o investigaciones envi\u00e1 un mail a talkwithme@jberrettamoreno.com", 
+            "title": "Como contribuir"
+        }, 
+        {
+            "location": "/project/contribute/#como-contribuir", 
+            "text": "Para contribuir con mas software de testeo o investigaciones envi\u00e1 un mail a talkwithme@jberrettamoreno.com", 
+            "title": "Como contribuir"
+        }, 
+        {
+            "location": "/references/", 
+            "text": "Low-latency event-based visual odometry\n\n\nWeb del proyecto\n\n\nPaper\n\n\nLow-latency localization by Active LED Markers tracking using a Dynamic Vision Sensor\n\n\nPresentaci\u00f3n\n\n\nC\u00f3digo\n\n\nPoker-DVS and MNIST-DVS\n\n\nWeb del proyecto\n\n\nProfesionales referentes\n\n\nTobi Delbr\u00fcck\n\n\nP\u00e1gina personal\n\n\nBernab\u00e9 Linares-Barranco\n\n\nP\u00e1gina personal\n\n\nAndrea Censi\n\n\nP\u00e1gina personal\n\n\nInvestigaciones\n\n\nP\u00e1gina principal\n\n\ndvs\n\n\nSoftware\n\n\nLibrerias\n\n\nDatasets\n\n\nOtros\n\n\nOpen source robot\n\n\nGet start DVS\n\n\nScripts DVS\n\n\nHardware DVS", 
+            "title": "Referencias"
+        }, 
+        {
+            "location": "/references/#low-latency-event-based-visual-odometry", 
             "text": "Web del proyecto  Paper", 
             "title": "Low-latency event-based visual odometry"
         }, 
         {
-            "location": "/projects/#low-latency-localization-by-active-led-markers-tracking-using-a-dynamic-vision-sensor", 
+            "location": "/references/#low-latency-localization-by-active-led-markers-tracking-using-a-dynamic-vision-sensor", 
             "text": "Presentaci\u00f3n  C\u00f3digo", 
             "title": "Low-latency localization by Active LED Markers tracking using a Dynamic Vision Sensor"
         }, 
         {
-            "location": "/projects/#poker-dvs-and-mnist-dvs", 
+            "location": "/references/#poker-dvs-and-mnist-dvs", 
             "text": "Web del proyecto", 
             "title": "Poker-DVS and MNIST-DVS"
         }, 
         {
-            "location": "/projects/#profesionales-referentes", 
+            "location": "/references/#profesionales-referentes", 
             "text": "", 
             "title": "Profesionales referentes"
         }, 
         {
-            "location": "/projects/#tobi-delbruck", 
+            "location": "/references/#tobi-delbruck", 
             "text": "P\u00e1gina personal", 
             "title": "Tobi Delbr\u00fcck"
         }, 
         {
-            "location": "/projects/#bernabe-linares-barranco", 
+            "location": "/references/#bernabe-linares-barranco", 
             "text": "P\u00e1gina personal", 
             "title": "Bernab\u00e9 Linares-Barranco"
         }, 
         {
-            "location": "/projects/#andrea-censi", 
+            "location": "/references/#andrea-censi", 
             "text": "P\u00e1gina personal", 
             "title": "Andrea Censi"
         }, 
         {
-            "location": "/projects/#investigaciones", 
+            "location": "/references/#investigaciones", 
             "text": "P\u00e1gina principal  dvs", 
             "title": "Investigaciones"
         }, 
         {
-            "location": "/projects/#software", 
+            "location": "/references/#software", 
             "text": "Librerias  Datasets", 
             "title": "Software"
         }, 
         {
-            "location": "/projects/#otros", 
+            "location": "/references/#otros", 
             "text": "Open source robot  Get start DVS  Scripts DVS  Hardware DVS", 
             "title": "Otros"
-        }, 
-        {
-            "location": "/ros/", 
-            "text": "Introducci\u00f3n\n\n\nSistema operativo robotico, corre sobre sistemas operativos linux.\n\n\nLinks\n\n\nROS imagen de docker: https://hub.docker.com/_/ros/\n\n\nROS en debian:  https://wiki.debian.org/DebianScience/Robotics/ROS", 
-            "title": "ROS"
-        }, 
-        {
-            "location": "/ros/#introduccion", 
-            "text": "Sistema operativo robotico, corre sobre sistemas operativos linux.", 
-            "title": "Introducci\u00f3n"
-        }, 
-        {
-            "location": "/ros/#links", 
-            "text": "ROS imagen de docker: https://hub.docker.com/_/ros/  ROS en debian:  https://wiki.debian.org/DebianScience/Robotics/ROS", 
-            "title": "Links"
         }
     ]
 }

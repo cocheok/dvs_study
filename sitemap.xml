@@ -10,16 +10,30 @@
     
 
     
+        
     <url>
-     <loc>None/projects/</loc>
+     <loc>None/project/structure/</loc>
      <lastmod>2016-06-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>None/project/base/</loc>
+     <lastmod>2016-06-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/project/contribute/</loc>
+     <lastmod>2016-06-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
     <url>
-     <loc>None/ros/</loc>
+     <loc>None/references/</loc>
      <lastmod>2016-06-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
