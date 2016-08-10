@@ -27,7 +27,7 @@
         }, 
         {
             "location": "/project/structure/", 
-            "text": "Introducci\u00f3n\n\n\nLa estructura del proyecto consiste en la utilizaci\u00f3n de Docker como mecanismo de deployment, ROS como Sistema operativo y Gazebo como estructura de simulaci\u00f3n.\n\n\nGacebo\n\n\nComo se puede ver en la \nInstalaci\u00f3n\n lo que vamos a hacer es instalar Gazebo localmente\n   y luego utilizarlo con ROS en un ambiente emulado con Docker.\n\n\nDocker", 
+            "text": "Introducci\u00f3n\n\n\nLa estructura del proyecto consiste en la utilizaci\u00f3n de Docker como mecanismo de deployment, ROS como Sistema operativo y Gazebo como estructura de simulaci\u00f3n.\n\n\nGazebo\n\n\nComo se puede ver en la \nInstalaci\u00f3n\n lo que vamos a hacer es instalar Gazebo localmente\n   y luego utilizarlo con ROS en un ambiente emulado con Docker.\n\n\nDocker", 
             "title": "Estructura"
         }, 
         {
@@ -36,9 +36,9 @@
             "title": "Introducci\u00f3n"
         }, 
         {
-            "location": "/project/structure/#gacebo", 
+            "location": "/project/structure/#gazebo", 
             "text": "Como se puede ver en la  Instalaci\u00f3n  lo que vamos a hacer es instalar Gazebo localmente\n   y luego utilizarlo con ROS en un ambiente emulado con Docker.", 
-            "title": "Gacebo"
+            "title": "Gazebo"
         }, 
         {
             "location": "/project/structure/#docker", 
