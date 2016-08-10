@@ -17,13 +17,13 @@
         }, 
         {
             "location": "/project/structure/", 
-            "text": "Introducci\u00f3n\n\n\nLa estructura del proyecto consiste en la utilizaci\u00f3n de diversas tecnolog\u00edas para lograr un desarrollo y deployment lo mas automatizado y sencillo posible.\n\n\nTecnolog\u00edas\n\n\nDocker\n\n\nDocker es un proyecto de c\u00f3digo abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracci\u00f3n y automatizaci\u00f3n de Virtualizaci\u00f3n a nivel de sistema operativo en Linux.\n\n\nNode-Red\n\n\nNode-RED es una aplicaci\u00f3n basada en node.js, una plataforma JavaScript del lado del servidor que usa un controlador de eventos y un modelo de entradas y salidas para crear aplicaciones intensivas en datos y en tiempo real que puedan funcionar sin problemas a lo largo de muchos dispositivos en arquitecturas distribuidas.\n\n\nROS\n\n\nSistema Operativo Rob\u00f3tico (en ingl\u00e9s Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo en un cl\u00faster heterog\u00e9neo.\n\n\nGazebo\n\n\nGazebo es un ambiente de emulaci\u00f3n de eventos f\u00edsicos para el robot desarrollado con ROS.", 
+            "text": "Estructura\n\n\nLa estructura del proyecto consiste en la utilizaci\u00f3n de diversas tecnolog\u00edas para lograr un desarrollo y deployment lo mas automatizado y sencillo posible.\n\n\nTecnolog\u00edas\n\n\nDocker\n\n\nDocker es un proyecto de c\u00f3digo abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracci\u00f3n y automatizaci\u00f3n de Virtualizaci\u00f3n a nivel de sistema operativo en Linux.\n\n\nNode-Red\n\n\nNode-RED es una aplicaci\u00f3n basada en node.js, una plataforma JavaScript del lado del servidor que usa un controlador de eventos y un modelo de entradas y salidas para crear aplicaciones intensivas en datos y en tiempo real que puedan funcionar sin problemas a lo largo de muchos dispositivos en arquitecturas distribuidas.\n\n\nROS\n\n\nSistema Operativo Rob\u00f3tico (en ingl\u00e9s Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo en un cl\u00faster heterog\u00e9neo.\n\n\nGazebo\n\n\nGazebo es un ambiente de emulaci\u00f3n de eventos f\u00edsicos para el robot desarrollado con ROS.", 
             "title": "Estructura"
         }, 
         {
-            "location": "/project/structure/#introduccion", 
+            "location": "/project/structure/#estructura", 
             "text": "La estructura del proyecto consiste en la utilizaci\u00f3n de diversas tecnolog\u00edas para lograr un desarrollo y deployment lo mas automatizado y sencillo posible.", 
-            "title": "Introducci\u00f3n"
+            "title": "Estructura"
         }, 
         {
             "location": "/project/structure/#tecnologias", 
