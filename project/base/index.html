@@ -8,7 +8,7 @@
   
   
   
-  <title>Software Base - DVS Study</title>
+  <title>Pruebas - DVS Study</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,7 +23,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Software Base";
+    var mkdocs_page_name = "Pruebas";
     var mkdocs_page_input_path = "project/base.md";
     var mkdocs_page_url = "/project/base/";
   </script>
@@ -75,11 +75,11 @@
         
             
     <li class="toctree-l1 current">
-        <a class="current" href="./">Software Base</a>
+        <a class="current" href="./">Pruebas</a>
         
             <ul>
             
-                <li class="toctree-l3"><a href="#introduccion">Introducción</a></li>
+                <li class="toctree-l3"><a href="#demo-1">Demo 1</a></li>
                 
             
             </ul>
@@ -130,7 +130,7 @@
         
       
     
-    <li>Software Base</li>
+    <li>Pruebas</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -140,8 +140,17 @@
           <div role="main">
             <div class="section">
               
-                <h3 id="introduccion">Introducción</h3>
-<p>El software base consiste en el reconocimiento de un tablero de ajedrez y su reproducción 3D</p>
+                <h2 id="demo-1">Demo 1</h2>
+<p>El software de demostración consiste en el reconocimiento de un tablero de ajedrez y su reproducción 3D. </p>
+<p>La estructura lógica del mismo se compone de:</p>
+<ul>
+<li>Una base de datos de objetos conocidos en los cuales almacene el flujo de eventos necesarios para el reconocimiento un tablero de ajedrez. </li>
+<li>Un nodo de Mock que lo que haga sea leer el archivo AER provisto por la camara DVS 128 que simule la camara conectada.</li>
+<li>Un nodo de reconocimiento cuya entrada sea el flujo de eventos y su salida sea el objeto reconocido (modelo).</li>
+<li>Un nodo que agregue el modelo del objeto reconocido a gazebo.</li>
+</ul>
+<p>Dicha estructura se puede visualizar en el siguiente diagrama:</p>
+<p><img alt="flow" src="../general-flow.jpg" /></p>
               
             </div>
           </div>

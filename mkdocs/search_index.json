@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Objetivo\n\n\nEl presente proyecto tiene como objetivo la investigaci\u00f3n de algoritmos para explotar la informaci\u00f3n provista por c\u00e1maras retinianas\n\n\nAlcance\n\n\nDise\u00f1ar y desarrollar el software base del sistema experimental: Este punto se enfoca en dise\u00f1ar la arquitectura correspondiente en cuanto a t\u00e9cnicas y tecnolog\u00edas utilizadas para la realizaci\u00f3n del software base sobre el cual se probar\u00e1n los algoritmos que explotan la informaci\u00f3n provista por dichas camaras.\n\n\nDesarrollar de la estructura de proyecto libre: Este punto se enfoca en decidir e implementar las herramientas y tecnolog\u00edas para que sea un proyecto de desarrollo libre y contributivo.\n\n\nDesarrollar la estructura de simulaci\u00f3n: Dado que en futuras investigaciones habr\u00e1 que decidir que hardware utilizar y por el propio proceso de desarrollo, se realizar\u00e1n los test de esta tecnolog\u00eda en una plataforma simulada ( realizada con Gazebo o similar ). Esto agrega un nivel de abstracci\u00f3n al desarrollo, y dar\u00e1 independencia con respecto del hardware utilizado.\n\n\nForma de trabajo\n\n\nOpen source robotics fundation\n\n\nImagenes de docker\n: \nDockerhub osrf", 
+            "text": "Objetivo\n\n\nEl presente proyecto tiene como objetivo la investigaci\u00f3n de algoritmos para explotar la informaci\u00f3n provista por sensores de visi\u00f3n din\u00e1mica (DVS)\n\n\nAlcance\n\n\nDise\u00f1ar y desarrollar el software base del sistema experimental: Este punto se enfoca en dise\u00f1ar la arquitectura correspondiente en cuanto a t\u00e9cnicas y tecnolog\u00edas utilizadas para la realizaci\u00f3n del software base sobre el cual se probar\u00e1n los algoritmos que explotan la informaci\u00f3n provista por dichas camaras.\n\n\nDesarrollar de la estructura de proyecto libre: Este punto se enfoca en decidir e implementar las herramientas y tecnolog\u00edas para que sea un proyecto de desarrollo libre y contributivo.\n\n\nDesarrollar la estructura de simulaci\u00f3n: Dado que en futuras investigaciones habr\u00e1 que decidir que hardware utilizar y por el propio proceso de desarrollo, se realizar\u00e1n los test de esta tecnolog\u00eda en una plataforma simulada ( realizada con Gazebo o similar ). Esto agrega un nivel de abstracci\u00f3n al desarrollo, y dar\u00e1 independencia con respecto del hardware utilizado.", 
             "title": "Inicio"
         }, 
         {
             "location": "/#objetivo", 
-            "text": "El presente proyecto tiene como objetivo la investigaci\u00f3n de algoritmos para explotar la informaci\u00f3n provista por c\u00e1maras retinianas", 
+            "text": "El presente proyecto tiene como objetivo la investigaci\u00f3n de algoritmos para explotar la informaci\u00f3n provista por sensores de visi\u00f3n din\u00e1mica (DVS)", 
             "title": "Objetivo"
         }, 
         {
@@ -16,44 +16,49 @@
             "title": "Alcance"
         }, 
         {
-            "location": "/#forma-de-trabajo", 
-            "text": "", 
-            "title": "Forma de trabajo"
-        }, 
-        {
-            "location": "/#open-source-robotics-fundation", 
-            "text": "Imagenes de docker :  Dockerhub osrf", 
-            "title": "Open source robotics fundation"
-        }, 
-        {
             "location": "/project/structure/", 
-            "text": "Introducci\u00f3n\n\n\nLa estructura del proyecto consiste en la utilizaci\u00f3n de Docker como mecanismo de deployment, ROS como Sistema operativo y Gazebo como estructura de simulaci\u00f3n.\n\n\nGazebo\n\n\nComo se puede ver en la \nInstalaci\u00f3n\n lo que vamos a hacer es instalar Gazebo localmente\n   y luego utilizarlo con ROS en un ambiente emulado con Docker.\n\n\nDocker", 
+            "text": "Introducci\u00f3n\n\n\nLa estructura del proyecto consiste en la utilizaci\u00f3n de diversas tecnolog\u00edas para lograr un desarrollo y deployment lo mas automatizado y sencillo posible.\n\n\nTecnolog\u00edas\n\n\nDocker\n\n\nDocker es un proyecto de c\u00f3digo abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracci\u00f3n y automatizaci\u00f3n de Virtualizaci\u00f3n a nivel de sistema operativo en Linux.\n\n\nNode-Red\n\n\nNode-RED es una aplicaci\u00f3n basada en node.js, una plataforma JavaScript del lado del servidor que usa un controlador de eventos y un modelo de entradas y salidas para crear aplicaciones intensivas en datos y en tiempo real que puedan funcionar sin problemas a lo largo de muchos dispositivos en arquitecturas distribuidas.\n\n\nROS\n\n\nSistema Operativo Rob\u00f3tico (en ingl\u00e9s Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo en un cl\u00faster heterog\u00e9neo.\n\n\nGazebo\n\n\nGazebo es un ambiente de emulaci\u00f3n de eventos f\u00edsicos para el robot desarrollado con ROS.", 
             "title": "Estructura"
         }, 
         {
             "location": "/project/structure/#introduccion", 
-            "text": "La estructura del proyecto consiste en la utilizaci\u00f3n de Docker como mecanismo de deployment, ROS como Sistema operativo y Gazebo como estructura de simulaci\u00f3n.", 
+            "text": "La estructura del proyecto consiste en la utilizaci\u00f3n de diversas tecnolog\u00edas para lograr un desarrollo y deployment lo mas automatizado y sencillo posible.", 
             "title": "Introducci\u00f3n"
         }, 
         {
-            "location": "/project/structure/#gazebo", 
-            "text": "Como se puede ver en la  Instalaci\u00f3n  lo que vamos a hacer es instalar Gazebo localmente\n   y luego utilizarlo con ROS en un ambiente emulado con Docker.", 
-            "title": "Gazebo"
+            "location": "/project/structure/#tecnologias", 
+            "text": "", 
+            "title": "Tecnolog\u00edas"
         }, 
         {
             "location": "/project/structure/#docker", 
-            "text": "", 
+            "text": "Docker es un proyecto de c\u00f3digo abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracci\u00f3n y automatizaci\u00f3n de Virtualizaci\u00f3n a nivel de sistema operativo en Linux.", 
             "title": "Docker"
         }, 
         {
-            "location": "/project/base/", 
-            "text": "Introducci\u00f3n\n\n\nEl software base consiste en el reconocimiento de un tablero de ajedrez y su reproducci\u00f3n 3D", 
-            "title": "Software Base"
+            "location": "/project/structure/#node-red", 
+            "text": "Node-RED es una aplicaci\u00f3n basada en node.js, una plataforma JavaScript del lado del servidor que usa un controlador de eventos y un modelo de entradas y salidas para crear aplicaciones intensivas en datos y en tiempo real que puedan funcionar sin problemas a lo largo de muchos dispositivos en arquitecturas distribuidas.", 
+            "title": "Node-Red"
         }, 
         {
-            "location": "/project/base/#introduccion", 
-            "text": "El software base consiste en el reconocimiento de un tablero de ajedrez y su reproducci\u00f3n 3D", 
-            "title": "Introducci\u00f3n"
+            "location": "/project/structure/#ros", 
+            "text": "Sistema Operativo Rob\u00f3tico (en ingl\u00e9s Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo en un cl\u00faster heterog\u00e9neo.", 
+            "title": "ROS"
+        }, 
+        {
+            "location": "/project/structure/#gazebo", 
+            "text": "Gazebo es un ambiente de emulaci\u00f3n de eventos f\u00edsicos para el robot desarrollado con ROS.", 
+            "title": "Gazebo"
+        }, 
+        {
+            "location": "/project/base/", 
+            "text": "Demo 1\n\n\nEl software de demostraci\u00f3n consiste en el reconocimiento de un tablero de ajedrez y su reproducci\u00f3n 3D. \n\n\nLa estructura l\u00f3gica del mismo se compone de:\n\n\n\n\nUna base de datos de objetos conocidos en los cuales almacene el flujo de eventos necesarios para el reconocimiento un tablero de ajedrez. \n\n\nUn nodo de Mock que lo que haga sea leer el archivo AER provisto por la camara DVS 128 que simule la camara conectada.\n\n\nUn nodo de reconocimiento cuya entrada sea el flujo de eventos y su salida sea el objeto reconocido (modelo).\n\n\nUn nodo que agregue el modelo del objeto reconocido a gazebo.\n\n\n\n\nDicha estructura se puede visualizar en el siguiente diagrama:", 
+            "title": "Pruebas"
+        }, 
+        {
+            "location": "/project/base/#demo-1", 
+            "text": "El software de demostraci\u00f3n consiste en el reconocimiento de un tablero de ajedrez y su reproducci\u00f3n 3D.   La estructura l\u00f3gica del mismo se compone de:   Una base de datos de objetos conocidos en los cuales almacene el flujo de eventos necesarios para el reconocimiento un tablero de ajedrez.   Un nodo de Mock que lo que haga sea leer el archivo AER provisto por la camara DVS 128 que simule la camara conectada.  Un nodo de reconocimiento cuya entrada sea el flujo de eventos y su salida sea el objeto reconocido (modelo).  Un nodo que agregue el modelo del objeto reconocido a gazebo.   Dicha estructura se puede visualizar en el siguiente diagrama:", 
+            "title": "Demo 1"
         }, 
         {
             "location": "/project/contribute/", 
