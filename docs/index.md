@@ -1,7 +1,7 @@
 
 ## Objetivo
 
-El presente proyecto tiene como objetivo la investigación de algoritmos para explotar la información provista por cámaras retinianas
+El presente proyecto tiene como objetivo la investigación de algoritmos para explotar la información provista por sensores de visión dinámica (DVS)
 
 ## Alcance
 
@@ -11,8 +11,3 @@ Desarrollar de la estructura de proyecto libre: Este punto se enfoca en decidir 
 
 Desarrollar la estructura de simulación: Dado que en futuras investigaciones habrá que decidir que hardware utilizar y por el propio proceso de desarrollo, se realizarán los test de esta tecnología en una plataforma simulada ( realizada con Gazebo o similar ). Esto agrega un nivel de abstracción al desarrollo, y dará independencia con respecto del hardware utilizado.
 
-## Forma de trabajo
-
-### Open source robotics fundation
-
-*Imagenes de docker*: [Dockerhub osrf](https://hub.docker.com/u/osrf/)

@@ -3,7 +3,7 @@ pages:
 - Inicio: 'index.md'
 - Proyecto:
     - 'Estructura': 'project/structure.md'
-    - 'Software Base': 'project/base.md'
+    - 'Pruebas': 'project/base.md'
     - 'Como contribuir': 'project/contribute.md' 
 - Referencias: 'references.md'
 
