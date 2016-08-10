@@ -1,8 +1,8 @@
-### Introducción
+## Introducción
 
   Sistema operativo robotico, corre sobre sistemas operativos linux.
 
-### Links
+## Links
 
   ROS imagen de docker: https://hub.docker.com/_/ros/
 

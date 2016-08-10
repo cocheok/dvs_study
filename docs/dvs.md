@@ -5,7 +5,7 @@
 
 Crear el archivo Dockerfile con el contenido correspndiente, descargar la carpeta rules y colocarla en la carpeta donde se encuentra el archivo Dockerfile.
 
-### Dockerfile
+## Dockerfile
 ´´´
 FROM java:7
 RUN apt-get -y update && apt-get -y upgrade
@@ -34,7 +34,7 @@ docker run -d -t -it --net host -v /dev/dri:/dev/dri:rw -v /tmp/.X11-unix:/tmp/.
 
 Para correr la imagen como docker-compose lo hacemos de la siguiente manera:
 
-### docker-compose.yml
+## docker-compose.yml
 
 ´´´
 version: '2'
