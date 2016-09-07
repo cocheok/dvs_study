@@ -1,25 +1,15 @@
-# Estructura
+## DevOps
+La estructura a utilizar es la que se encuentra detallada [aqui](https://cocheok.github.io/robotics_devops)
 
-La estructura del proyecto consiste en la utilización de diversas tecnologías para lograr un desarrollo y deployment lo mas automatizado y sencillo posible.
+## Software
 
+El desarrollo de software consiste tomar las librerias publicadas por [Robotics perception Group](https://github.com/uzh-rpg/rpg_dvs_ros) adaptarlas a los flujos de Node-Red
+En el caso del nodo de ROS [dvs_ros_driver](https://github.com/uzh-rpg/rpg_dvs_ros/tree/master/dvs_ros_driver) se crea un nodo de Node-Red bajo la categoria DVS128
 
-## Tecnologías
+![Node-Red node DVS128](node-red-dvs128.png)
 
+Dicha adaptación se realiza utilizando la libreria de NodeJS [rosjs](http://wiki.ros.org/brown_remotelab/Tutorials/Using%20rosjs%20to%20control%20ROS%20from%20Javascript) que es la que realiza la comunicación con el roscore a traves de [rosbridge](http://wiki.ros.org/rosbridge_suite) y manteniendo el prefijo **node-red-** como nombre del proyecto de NodeJS de npm realizado.
 
-## Docker
-
-   Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de Virtualización a nivel de sistema operativo en Linux.
-
-## Node-Red
-
-   Node-RED es una aplicación basada en node.js, una plataforma JavaScript del lado del servidor que usa un controlador de eventos y un modelo de entradas y salidas para crear aplicaciones intensivas en datos y en tiempo real que puedan funcionar sin problemas a lo largo de muchos dispositivos en arquitecturas distribuidas.
-
-## ROS
-
-   Sistema Operativo Robótico (en inglés Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo en un clúster heterogéneo.
-
-## Gazebo
-
-   Gazebo es un ambiente de emulación de eventos físicos para el robot desarrollado con ROS.
-
-
+## Hardware 
+  
+El dispositivo utilizado en este proyecto es una cámara DVS128 desarrollada por [IniLabs](http://inilabs.com/support/hardware/dvs128/).
