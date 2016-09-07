@@ -72,21 +72,13 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#estructura">Estructura</a></li>
+                <li class="toctree-l3"><a href="#devops">DevOps</a></li>
                 
-                    <li><a class="toctree-l4" href="#tecnologias">Tecnologías</a></li>
+            
+                <li class="toctree-l3"><a href="#software">Software</a></li>
                 
-                    <li><a class="toctree-l4" href="#docker">Docker</a></li>
-                
-                    <li><a class="toctree-l4" href="#node-red">Node-Red</a></li>
-                
-                    <li><a class="toctree-l4" href="#ros">ROS</a></li>
-                
-                    <li><a class="toctree-l4" href="#gazebo">Gazebo</a></li>
-                
-                    <li><a class="toctree-l4" href="#qemu">QEMU</a></li>
-                
-                    <li><a class="toctree-l4" href="#jenkins">Jenkins</a></li>
+            
+                <li class="toctree-l3"><a href="#hardware">Hardware</a></li>
                 
             
             </ul>
@@ -154,21 +146,15 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="estructura">Estructura</h1>
-<p>La estructura del proyecto consiste en la utilización de diversas tecnologías para lograr un desarrollo y deployment lo mas automatizado y sencillo posible.</p>
-<h2 id="tecnologias">Tecnologías</h2>
-<h2 id="docker">Docker</h2>
-<p>Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de Virtualización a nivel de sistema operativo en Linux.</p>
-<h2 id="node-red">Node-Red</h2>
-<p>Node-RED es una aplicación basada en node.js, una plataforma JavaScript del lado del servidor que usa un controlador de eventos y un modelo de entradas y salidas para crear aplicaciones intensivas en datos y en tiempo real que puedan funcionar sin problemas a lo largo de muchos dispositivos en arquitecturas distribuidas.</p>
-<h2 id="ros">ROS</h2>
-<p>Sistema Operativo Robótico (en inglés Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo en un clúster heterogéneo.</p>
-<h2 id="gazebo">Gazebo</h2>
-<p>Gazebo es un ambiente de emulación de eventos físicos para el robot desarrollado con ROS.</p>
-<h2 id="qemu">QEMU</h2>
-<p>QEMU es un emulador de procesadores basado en la traducción dinámica de binarios (conversión del código binario de la arquitectura fuente en código entendible por la arquitectura huésped)</p>
-<h2 id="jenkins">Jenkins</h2>
-<p>Jenkins es un software de Integración continua </p>
+                <h2 id="devops">DevOps</h2>
+<p>La estructura a utilizar es la que se encuentra detallada <a href="https://cocheok.github.io/robotics_devops">aqui</a></p>
+<h2 id="software">Software</h2>
+<p>El desarrollo de software consiste tomar las librerias publicadas por <a href="https://github.com/uzh-rpg/rpg_dvs_ros">Robotics perception Group</a> adaptarlas a los flujos de Node-Red
+En el caso del nodo de ROS <a href="https://github.com/uzh-rpg/rpg_dvs_ros/tree/master/dvs_ros_driver">dvs_ros_driver</a> se crea un nodo de Node-Red bajo la categoria DVS128</p>
+<p><img alt="Node-Red node DVS128" src="../node-red-dvs128.png" /></p>
+<p>Dicha adaptación se realiza utilizando la libreria de NodeJS <a href="http://wiki.ros.org/brown_remotelab/Tutorials/Using%20rosjs%20to%20control%20ROS%20from%20Javascript">rosjs</a> que es la que realiza la comunicación con el roscore a traves de <a href="http://wiki.ros.org/rosbridge_suite">rosbridge</a> y manteniendo el prefijo <strong>node-red-</strong> como nombre del proyecto de NodeJS de npm realizado.</p>
+<h2 id="hardware">Hardware</h2>
+<p>El dispositivo utilizado en este proyecto es una cámara DVS128 desarrollada por <a href="http://inilabs.com/support/hardware/dvs128/">IniLabs</a>.</p>
               
             </div>
           </div>

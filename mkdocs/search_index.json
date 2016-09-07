@@ -17,58 +17,38 @@
         }, 
         {
             "location": "/project/structure/", 
-            "text": "Estructura\n\n\nLa estructura del proyecto consiste en la utilizaci\u00f3n de diversas tecnolog\u00edas para lograr un desarrollo y deployment lo mas automatizado y sencillo posible.\n\n\nTecnolog\u00edas\n\n\nDocker\n\n\nDocker es un proyecto de c\u00f3digo abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracci\u00f3n y automatizaci\u00f3n de Virtualizaci\u00f3n a nivel de sistema operativo en Linux.\n\n\nNode-Red\n\n\nNode-RED es una aplicaci\u00f3n basada en node.js, una plataforma JavaScript del lado del servidor que usa un controlador de eventos y un modelo de entradas y salidas para crear aplicaciones intensivas en datos y en tiempo real que puedan funcionar sin problemas a lo largo de muchos dispositivos en arquitecturas distribuidas.\n\n\nROS\n\n\nSistema Operativo Rob\u00f3tico (en ingl\u00e9s Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo en un cl\u00faster heterog\u00e9neo.\n\n\nGazebo\n\n\nGazebo es un ambiente de emulaci\u00f3n de eventos f\u00edsicos para el robot desarrollado con ROS.\n\n\nQEMU\n\n\nQEMU es un emulador de procesadores basado en la traducci\u00f3n din\u00e1mica de binarios (conversi\u00f3n del c\u00f3digo binario de la arquitectura fuente en c\u00f3digo entendible por la arquitectura hu\u00e9sped)\n\n\nJenkins\n\n\nJenkins es un software de Integraci\u00f3n continua", 
+            "text": "DevOps\n\n\nLa estructura a utilizar es la que se encuentra detallada \naqui\n\n\nSoftware\n\n\nEl desarrollo de software consiste tomar las librerias publicadas por \nRobotics perception Group\n adaptarlas a los flujos de Node-Red\nEn el caso del nodo de ROS \ndvs_ros_driver\n se crea un nodo de Node-Red bajo la categoria DVS128\n\n\n\n\nDicha adaptaci\u00f3n se realiza utilizando la libreria de NodeJS \nrosjs\n que es la que realiza la comunicaci\u00f3n con el roscore a traves de \nrosbridge\n y manteniendo el prefijo \nnode-red-\n como nombre del proyecto de NodeJS de npm realizado.\n\n\nHardware\n\n\nEl dispositivo utilizado en este proyecto es una c\u00e1mara DVS128 desarrollada por \nIniLabs\n.", 
             "title": "Estructura"
         }, 
         {
-            "location": "/project/structure/#estructura", 
-            "text": "La estructura del proyecto consiste en la utilizaci\u00f3n de diversas tecnolog\u00edas para lograr un desarrollo y deployment lo mas automatizado y sencillo posible.", 
-            "title": "Estructura"
+            "location": "/project/structure/#devops", 
+            "text": "La estructura a utilizar es la que se encuentra detallada  aqui", 
+            "title": "DevOps"
         }, 
         {
-            "location": "/project/structure/#tecnologias", 
-            "text": "", 
-            "title": "Tecnolog\u00edas"
+            "location": "/project/structure/#software", 
+            "text": "El desarrollo de software consiste tomar las librerias publicadas por  Robotics perception Group  adaptarlas a los flujos de Node-Red\nEn el caso del nodo de ROS  dvs_ros_driver  se crea un nodo de Node-Red bajo la categoria DVS128   Dicha adaptaci\u00f3n se realiza utilizando la libreria de NodeJS  rosjs  que es la que realiza la comunicaci\u00f3n con el roscore a traves de  rosbridge  y manteniendo el prefijo  node-red-  como nombre del proyecto de NodeJS de npm realizado.", 
+            "title": "Software"
         }, 
         {
-            "location": "/project/structure/#docker", 
-            "text": "Docker es un proyecto de c\u00f3digo abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracci\u00f3n y automatizaci\u00f3n de Virtualizaci\u00f3n a nivel de sistema operativo en Linux.", 
-            "title": "Docker"
-        }, 
-        {
-            "location": "/project/structure/#node-red", 
-            "text": "Node-RED es una aplicaci\u00f3n basada en node.js, una plataforma JavaScript del lado del servidor que usa un controlador de eventos y un modelo de entradas y salidas para crear aplicaciones intensivas en datos y en tiempo real que puedan funcionar sin problemas a lo largo de muchos dispositivos en arquitecturas distribuidas.", 
-            "title": "Node-Red"
-        }, 
-        {
-            "location": "/project/structure/#ros", 
-            "text": "Sistema Operativo Rob\u00f3tico (en ingl\u00e9s Robot Operating System, ROS) es un framework para el desarrollo de software para robots que provee la funcionalidad de un sistema operativo en un cl\u00faster heterog\u00e9neo.", 
-            "title": "ROS"
-        }, 
-        {
-            "location": "/project/structure/#gazebo", 
-            "text": "Gazebo es un ambiente de emulaci\u00f3n de eventos f\u00edsicos para el robot desarrollado con ROS.", 
-            "title": "Gazebo"
-        }, 
-        {
-            "location": "/project/structure/#qemu", 
-            "text": "QEMU es un emulador de procesadores basado en la traducci\u00f3n din\u00e1mica de binarios (conversi\u00f3n del c\u00f3digo binario de la arquitectura fuente en c\u00f3digo entendible por la arquitectura hu\u00e9sped)", 
-            "title": "QEMU"
-        }, 
-        {
-            "location": "/project/structure/#jenkins", 
-            "text": "Jenkins es un software de Integraci\u00f3n continua", 
-            "title": "Jenkins"
+            "location": "/project/structure/#hardware", 
+            "text": "El dispositivo utilizado en este proyecto es una c\u00e1mara DVS128 desarrollada por  IniLabs .", 
+            "title": "Hardware"
         }, 
         {
             "location": "/project/base/", 
-            "text": "Demo 1\n\n\nEl software de demostraci\u00f3n consiste en el reconocimiento de un tablero de ajedrez y su reproducci\u00f3n 3D. \n\n\nLa estructura l\u00f3gica del mismo se compone de:\n\n\n\n\nUna base de datos de objetos conocidos en los cuales almacene el flujo de eventos necesarios para el reconocimiento un tablero de ajedrez. \n\n\nUn nodo de Mock que lo que haga sea leer el archivo AER provisto por la camara DVS 128 que simule la camara conectada.\n\n\nUn nodo de reconocimiento cuya entrada sea el flujo de eventos y su salida sea el objeto reconocido (modelo).\n\n\nUn nodo que agregue el modelo del objeto reconocido a gazebo.\n\n\n\n\nDicha estructura se puede visualizar en el siguiente diagrama:", 
+            "text": "Demo 1\n\n\nEl software de demostraci\u00f3n consiste en el reconocimiento de un tablero de ajedrez dada una grabaci\u00f3n. \n\n\nLa estructura l\u00f3gica del mismo se compone de:\n\n\n\n\nUna base de datos de objetos conocidos en los cuales almacene el flujo de eventos necesarios para el reconocimiento un tablero de ajedrez. \n\n\nUn nodo de Mock que lo que haga sea leer el archivo AER provisto por la camara DVS 128 que simule la camara conectada.\n\n\nUn nodo de reconocimiento cuya entrada sea el flujo de eventos y su salida un booleano, true en el caso de que lo reconozca.\n\n\nUn nodo que imprima el resultado en la pantalla de debug de Node-Red .\n\n\n\n\nDicha estructura se puede visualizar en el siguiente diagrama:\n\n\n\n\nEl flujo inicia cuando se recibe como entrada una grabaci\u00f3n de una c\u00e1mara DVS128 (AER File) en un nodo DVS-Reader que tiene el fin de enviarle el flujo de eventos registrados en la grabaci\u00f3n a un nodo llamado Chessboard Recognition Alghoritm, que realiza un algoritmo de reconocimiento de un tablero de ajedrez y retorna un booleano con el valor true en el caso de que lo reconozca. Para ello debemos realizar un flujo de Node-Red tendr\u00eda la siguiente forma:\n\n\n\n\nEl nodo AER File lo que hace es enviar la informaci\u00f3n del archivo dado en forma serializada simulando ser la c\u00e1mara DVS128.\nEl nodo Chessboard Recognition Alghoritm lo que hace es conectarse a un nodo de ros informando los datos que recibe un nodo de ROS que detecta el tablero de ajedrez del flujo de eventos recibidos y luego ni bien lo tiene identificado devuelve true el cual es logueado en la consola de debug que provee la herramienta.\n\n\nDemo 2\n\n\nEl software de demostraci\u00f3n consiste en el reconocimiento de un tablero de ajedrez con la c\u00e1mara DVS128.\n\n\nSi reemplazamos el nodo AER File del Demo1 por un nodo real que tenga los controladores de la c\u00e1mara DVS128 y conectando la misma al dispositivo en el que se encuentre corriendo el servicio de Node-Red, se puede utilizar el nodo Chessboard Recognition Alghoritm. Siendo el flujo de la siguiente forma:", 
             "title": "Pruebas"
         }, 
         {
             "location": "/project/base/#demo-1", 
-            "text": "El software de demostraci\u00f3n consiste en el reconocimiento de un tablero de ajedrez y su reproducci\u00f3n 3D.   La estructura l\u00f3gica del mismo se compone de:   Una base de datos de objetos conocidos en los cuales almacene el flujo de eventos necesarios para el reconocimiento un tablero de ajedrez.   Un nodo de Mock que lo que haga sea leer el archivo AER provisto por la camara DVS 128 que simule la camara conectada.  Un nodo de reconocimiento cuya entrada sea el flujo de eventos y su salida sea el objeto reconocido (modelo).  Un nodo que agregue el modelo del objeto reconocido a gazebo.   Dicha estructura se puede visualizar en el siguiente diagrama:", 
+            "text": "El software de demostraci\u00f3n consiste en el reconocimiento de un tablero de ajedrez dada una grabaci\u00f3n.   La estructura l\u00f3gica del mismo se compone de:   Una base de datos de objetos conocidos en los cuales almacene el flujo de eventos necesarios para el reconocimiento un tablero de ajedrez.   Un nodo de Mock que lo que haga sea leer el archivo AER provisto por la camara DVS 128 que simule la camara conectada.  Un nodo de reconocimiento cuya entrada sea el flujo de eventos y su salida un booleano, true en el caso de que lo reconozca.  Un nodo que imprima el resultado en la pantalla de debug de Node-Red .   Dicha estructura se puede visualizar en el siguiente diagrama:   El flujo inicia cuando se recibe como entrada una grabaci\u00f3n de una c\u00e1mara DVS128 (AER File) en un nodo DVS-Reader que tiene el fin de enviarle el flujo de eventos registrados en la grabaci\u00f3n a un nodo llamado Chessboard Recognition Alghoritm, que realiza un algoritmo de reconocimiento de un tablero de ajedrez y retorna un booleano con el valor true en el caso de que lo reconozca. Para ello debemos realizar un flujo de Node-Red tendr\u00eda la siguiente forma:   El nodo AER File lo que hace es enviar la informaci\u00f3n del archivo dado en forma serializada simulando ser la c\u00e1mara DVS128.\nEl nodo Chessboard Recognition Alghoritm lo que hace es conectarse a un nodo de ros informando los datos que recibe un nodo de ROS que detecta el tablero de ajedrez del flujo de eventos recibidos y luego ni bien lo tiene identificado devuelve true el cual es logueado en la consola de debug que provee la herramienta.", 
             "title": "Demo 1"
+        }, 
+        {
+            "location": "/project/base/#demo-2", 
+            "text": "El software de demostraci\u00f3n consiste en el reconocimiento de un tablero de ajedrez con la c\u00e1mara DVS128.  Si reemplazamos el nodo AER File del Demo1 por un nodo real que tenga los controladores de la c\u00e1mara DVS128 y conectando la misma al dispositivo en el que se encuentre corriendo el servicio de Node-Red, se puede utilizar el nodo Chessboard Recognition Alghoritm. Siendo el flujo de la siguiente forma:", 
+            "title": "Demo 2"
         }, 
         {
             "location": "/project/contribute/", 
