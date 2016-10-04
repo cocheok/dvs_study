@@ -4,7 +4,8 @@ pages:
 - Proyecto:
     - 'Estructura': 'project/structure.md'
     - 'Pruebas': 'project/base.md'
-    - 'Como contribuir': 'project/contribute.md' 
+    - 'Calibración': 'project/calibration.md'
+    - 'Como contribuir': 'project/contribute.md'   
 - Referencias: 'references.md'
 
 theme: readthedocs
