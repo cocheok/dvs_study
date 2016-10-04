@@ -51,6 +51,16 @@
             "title": "Demo 2"
         }, 
         {
+            "location": "/project/calibration/", 
+            "text": "Calibraci\u00f3n\n\n\nPara la calibraci\u00f3n utilizamos el modulo de ros desarrollado por \nRobotics and Perception group\n. La calibraci\u00f3n requiere un tablero con una grilla regular de LEDs parpadeando. El nuestro caso utilizamos la grilla \nModulo Max7219 Dot Led Matrix 8x8 Arduino/pic\n\n\n \n\n\nLa misma la controlamos desde un \nArduino MEGA 2560 R3\n\n\n\n\nConfiguramos los siguientes parametros en \ndvs_calibration\n: \n\n\n\n\n\n\ndots_w\n: Numero de filas LED\n\n\n\n\n\n\ndots_h\n: Numero de columnas LED\n\n\n\n\n\n\ndot_distance\n: distancia en metros entre los LED en \nmetros\n\n\n\n\n\n\nblinking_time_us\n: tiempo de parpadeo en \nmicro\n-segundos\n\n\n\n\n\n\nblinking_time_tolerance_us\n: Es la tolerancia en micro-segundos para contar la transici\u00f3n\n\n\n\n\n\n\nminimum_transitions_threshold\n: Es el n\u00famero m\u00ednimo de transiciones necesarias a considerar en la b\u00fasqueda de los LED.\n\n\n\n\n\n\nminimum_led_mass\n: Es la m\u00ednima \"masa\" de una burbuja LED, es decir, la suma de las transiciones en este Blop\n\n\n\n\n\n\npattern_search_timeout\n: Es el tiempo de espera en segundos cuando el mapa de transici\u00f3n es reiniciado (que tambi\u00e9n se pone a cero cuando se encontr\u00f3 la matriz de LED)", 
+            "title": "Calibraci\u00f3n"
+        }, 
+        {
+            "location": "/project/calibration/#calibracion", 
+            "text": "Para la calibraci\u00f3n utilizamos el modulo de ros desarrollado por  Robotics and Perception group . La calibraci\u00f3n requiere un tablero con una grilla regular de LEDs parpadeando. El nuestro caso utilizamos la grilla  Modulo Max7219 Dot Led Matrix 8x8 Arduino/pic     La misma la controlamos desde un  Arduino MEGA 2560 R3   Configuramos los siguientes parametros en  dvs_calibration :     dots_w : Numero de filas LED    dots_h : Numero de columnas LED    dot_distance : distancia en metros entre los LED en  metros    blinking_time_us : tiempo de parpadeo en  micro -segundos    blinking_time_tolerance_us : Es la tolerancia en micro-segundos para contar la transici\u00f3n    minimum_transitions_threshold : Es el n\u00famero m\u00ednimo de transiciones necesarias a considerar en la b\u00fasqueda de los LED.    minimum_led_mass : Es la m\u00ednima \"masa\" de una burbuja LED, es decir, la suma de las transiciones en este Blop    pattern_search_timeout : Es el tiempo de espera en segundos cuando el mapa de transici\u00f3n es reiniciado (que tambi\u00e9n se pone a cero cuando se encontr\u00f3 la matriz de LED)", 
+            "title": "Calibraci\u00f3n"
+        }, 
+        {
             "location": "/project/contribute/", 
             "text": "Como contribuir\n\n\nPara contribuir con mas software de testeo o investigaciones envi\u00e1 un mail a talkwithme@jberrettamoreno.com", 
             "title": "Como contribuir"
